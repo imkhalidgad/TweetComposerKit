@@ -1,0 +1,68 @@
+import SwiftUI
+
+/// Displays tweet character statistics as two side-by-side stat cards.
+///
+/// - **Characters Typed**: weighted count out of the maximum (e.g. "42/280")
+/// - **Characters Remaining**: countdown that turns orange then red near the limit
+public struct CharacterCounterView: View {
+    private let typed: Int
+    private let remaining: Int
+    private let maxLength: Int
+
+    public init(
+        typed: Int,
+        remaining: Int,
+        maxLength: Int = TwitterTextConfiguration.maxLength
+    ) {
+        self.typed = typed
+        self.remaining = remaining
+        self.maxLength = maxLength
+    }
+
+    private var remainingColor: Color {
+        switch remaining {
+        case 21...: .primary
+        case 0...20: .orange
+        default: .red
+        }
+    }
+
+    public var body: some View {
+        HStack(spacing: 12) {
+            statCard(
+                title: "Characters Typed",
+                value: "\(typed)/\(maxLength)",
+                valueColor: .primary
+            )
+            statCard(
+                title: "Characters Remaining",
+                value: "\(remaining)",
+                valueColor: remainingColor
+            )
+        }
+    }
+
+    // MARK: - Private
+
+    private func statCard(title: String, value: String, valueColor: Color) -> some View {
+        VStack(spacing: 10) {
+            Text(title)
+                .font(.caption)
+                .fontWeight(.semibold)
+                .foregroundStyle(.white)
+                .padding(.horizontal, 14)
+                .padding(.vertical, 6)
+                .background(Capsule().fill(TweetComposerColors.postBlue))
+
+            Text(value)
+                .font(.system(size: 28, weight: .bold, design: .rounded))
+                .foregroundStyle(valueColor)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 18)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(TweetComposerColors.babyBlue)
+        )
+    }
+}
