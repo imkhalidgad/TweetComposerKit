@@ -51,7 +51,7 @@ public struct CharacterCounterView: View {
                 .fontWeight(.medium)
                 .foregroundStyle(.primary)
                 .frame(maxWidth: .infinity)
-                .padding(.vertical, 10)
+                .padding(.vertical, 8)
                 .background(TweetComposerColors.babyBlue)
 
             Divider()
