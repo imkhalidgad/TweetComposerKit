@@ -53,6 +53,7 @@ public struct CharacterCounterView: View {
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 8)
                 .background(TweetComposerColors.babyBlue)
+                .foregroundStyle(.primary)
 
             Divider()
 
@@ -62,7 +63,7 @@ public struct CharacterCounterView: View {
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 24)
         }
-        .background(.white)
+        .background(.primary)
         .clipShape(RoundedRectangle(cornerRadius: 12))
         .overlay(
             RoundedRectangle(cornerRadius: 12)
