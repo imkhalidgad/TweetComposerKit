@@ -52,9 +52,6 @@ public struct TweetComposerView: View {
 
     public var body: some View {
         VStack(spacing: 0) {
-            headerBar
-
-            Divider()
 
             ScrollView {
                 VStack(spacing: 24) {
@@ -94,23 +91,6 @@ public struct TweetComposerView: View {
     }
 
     // MARK: - Subviews
-
-    private var headerBar: some View {
-        HStack {
-            Spacer()
-
-            Text("Twitter character count")
-                .font(.headline)
-
-            Spacer()
-
-            Image(systemName: "chevron.right")
-                .font(.body.weight(.semibold))
-                .foregroundStyle(.primary)
-        }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 12)
-    }
 
     @ViewBuilder
     private var twitterLogo: some View {

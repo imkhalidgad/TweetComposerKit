@@ -48,7 +48,7 @@ public struct CharacterCounterView: View {
         VStack(spacing: 0) {
             Text(title)
                 .font(.subheadline)
-                .fontWeight(.semibold)
+                .fontWeight(.medium)
                 .foregroundStyle(.primary)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 12)
@@ -57,7 +57,7 @@ public struct CharacterCounterView: View {
             Divider()
 
             Text(value)
-                .font(.system(size: 32, weight: .bold, design: .rounded))
+                .font(.system(size: 26, weight: .medium, design: .rounded))
                 .foregroundStyle(valueColor)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 24)
