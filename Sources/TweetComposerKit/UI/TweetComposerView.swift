@@ -51,24 +51,30 @@ public struct TweetComposerView: View {
     // MARK: - Body
 
     public var body: some View {
-        ScrollView {
-            VStack(spacing: 24) {
-                twitterLogo
-                    .padding(.top, 8)
+        VStack(spacing: 0) {
+            headerBar
 
-                CharacterCounterView(
-                    typed: viewModel.charactersTyped,
-                    remaining: viewModel.remainingCharacters
-                )
+            Divider()
 
-                editorSection
+            ScrollView {
+                VStack(spacing: 24) {
+                    twitterLogo
+                        .padding(.top, 8)
 
-                actionButtons
+                    CharacterCounterView(
+                        typed: viewModel.charactersTyped,
+                        remaining: viewModel.remainingCharacters
+                    )
 
-                postButton
+                    editorSection
+
+                    actionButtons
+
+                    postButton
+                }
+                .padding(.horizontal, 20)
+                .padding(.bottom, 20)
             }
-            .padding(.horizontal, 20)
-            .padding(.bottom, 20)
         }
         .alert("Tweet posted!", isPresented: $viewModel.didSendSuccessfully) {
             Button("OK", role: .cancel) {}
@@ -88,6 +94,23 @@ public struct TweetComposerView: View {
     }
 
     // MARK: - Subviews
+
+    private var headerBar: some View {
+        HStack {
+            Spacer()
+
+            Text("Twitter character count")
+                .font(.headline)
+
+            Spacer()
+
+            Image(systemName: "chevron.right")
+                .font(.body.weight(.semibold))
+                .foregroundStyle(.primary)
+        }
+        .padding(.horizontal, 16)
+        .padding(.vertical, 12)
+    }
 
     @ViewBuilder
     private var twitterLogo: some View {
@@ -159,7 +182,7 @@ public struct TweetComposerView: View {
                     .foregroundStyle(.white)
                     .padding(.horizontal, 18)
                     .padding(.vertical, 10)
-                    .background(Capsule().fill(TweetComposerColors.copyGreen))
+                    .background(RoundedRectangle(cornerRadius: 12).fill(TweetComposerColors.copyGreen))
             }
             .disabled(viewModel.text.isEmpty)
 
@@ -173,7 +196,7 @@ public struct TweetComposerView: View {
                     .foregroundStyle(.white)
                     .padding(.horizontal, 18)
                     .padding(.vertical, 10)
-                    .background(Capsule().fill(TweetComposerColors.clearRed))
+                    .background(RoundedRectangle(cornerRadius: 12).fill(TweetComposerColors.clearRed))
             }
             .disabled(viewModel.text.isEmpty)
         }
@@ -197,7 +220,7 @@ public struct TweetComposerView: View {
         }
         .foregroundStyle(.white)
         .background(
-            Capsule().fill(TweetComposerColors.postBlue)
+            RoundedRectangle(cornerRadius: 12).fill(TweetComposerColors.postBlue)
         )
         .disabled(!viewModel.isValid || viewModel.isSending)
         .opacity(viewModel.isValid && !viewModel.isSending ? 1.0 : 0.6)
