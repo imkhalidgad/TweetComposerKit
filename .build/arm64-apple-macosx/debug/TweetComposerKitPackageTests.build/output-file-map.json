@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/master.swiftdeps"
+  },
+  "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/runner.d",
+    "object": "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/runner.dia"
+  }
+}

@@ -1,0 +1,1189 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.xctest/Contents/MacOS/TweetComposerKitPackageTests",
+      "packagePath" : "/Users/khalidgad/Downloads/TweetComposerKit",
+      "productName" : "TweetComposerKitPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.TweetComposerKit-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/sources",
+      "importPath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/API/TwitterAPI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/API/TwitterAPIConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/DTOs/PostTweetRequestDTO.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/DTOs/PostTweetResponseDTO.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/Mappers/TweetMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/Repositories/TwitterAPIRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/TweetComposerError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/TwitterAPIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/TwitterCredentials.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/EmojiDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/Entities/Tweet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/Repositories/TwitterPosting.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/TweetLengthCalculator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/TweetValidator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/TwitterTextConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/URLDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/UseCases/PostTweetUseCase.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Manager/KeychainManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Manager/TwitterAuthManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/APIConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/APIEndPoint.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/APIResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/DefaultAPIConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/HTTPMethod.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/NetworkClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/NetworkError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/CharacterCounterView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/TweetComposerColors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/TweetComposerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/TweetComposerViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TweetComposerKit",
+      "moduleOutputPath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules/TweetComposerKit.swiftmodule",
+      "objects" : [
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAPI.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAPIConfiguration.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/PostTweetRequestDTO.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/PostTweetResponseDTO.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetMapper.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAPIRepository.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetComposerError.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAPIClient.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterCredentials.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/EmojiDetector.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/Tweet.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterPosting.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetLengthCalculator.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetValidator.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterTextConfiguration.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/URLDetector.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/PostTweetUseCase.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/KeychainManager.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAuthManager.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/APIConfiguration.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/APIEndPoint.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/APIResponse.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/DefaultAPIConfiguration.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/HTTPMethod.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/NetworkClient.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/NetworkError.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/CharacterCounterView.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetComposerColors.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetComposerView.swift.o",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetComposerViewModel.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/include/TweetComposerKit-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "tweetcomposerkit"
+      ],
+      "outputFileMapPath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAPI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAPIConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/PostTweetRequestDTO.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/PostTweetResponseDTO.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetMapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAPIRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetComposerError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAPIClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterCredentials.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/EmojiDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/Tweet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterPosting.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetLengthCalculator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetValidator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterTextConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/URLDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/PostTweetUseCase.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/KeychainManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAuthManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/APIConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/APIEndPoint.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/APIResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/DefaultAPIConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/HTTPMethod.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/NetworkClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/NetworkError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/CharacterCounterView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetComposerColors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetComposerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetComposerViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules/TweetComposerKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/API/TwitterAPI.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/API/TwitterAPIConfiguration.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/DTOs/PostTweetRequestDTO.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/DTOs/PostTweetResponseDTO.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/Mappers/TweetMapper.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/Repositories/TwitterAPIRepository.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/TweetComposerError.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/TwitterAPIClient.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/TwitterCredentials.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/EmojiDetector.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/Entities/Tweet.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/Repositories/TwitterPosting.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/TweetLengthCalculator.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/TweetValidator.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/TwitterTextConfiguration.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/URLDetector.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/UseCases/PostTweetUseCase.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Manager/KeychainManager.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Manager/TwitterAuthManager.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/APIConfiguration.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/APIEndPoint.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/APIResponse.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/DefaultAPIConfiguration.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/HTTPMethod.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/NetworkClient.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/NetworkError.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/CharacterCounterView.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/TweetComposerColors.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/TweetComposerView.swift",
+        "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/TweetComposerViewModel.swift"
+      ],
+      "tempsPath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.TweetComposerKitPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/sources",
+      "importPath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules/TweetComposerKitTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TweetComposerKitPackageTests",
+      "moduleOutputPath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules/TweetComposerKitPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/include/TweetComposerKitPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "tweetcomposerkit"
+      ],
+      "outputFileMapPath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules/TweetComposerKitPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.TweetComposerKitTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitTests.build/sources",
+      "importPath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Tests/TweetComposerKitTests/TweetComposerKitTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules/TweetComposerKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TweetComposerKitTests",
+      "moduleOutputPath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules/TweetComposerKitTests.swiftmodule",
+      "objects" : [
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitTests.build/TweetComposerKitTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "tweetcomposerkit"
+      ],
+      "outputFileMapPath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitTests.build/TweetComposerKitTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules/TweetComposerKitTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/khalidgad/Downloads/TweetComposerKit/Tests/TweetComposerKitTests/TweetComposerKitTests.swift"
+      ],
+      "tempsPath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "TweetComposerKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "TweetComposerKit",
+      "-package-name",
+      "tweetcomposerkit",
+      "-c",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/API/TwitterAPI.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/API/TwitterAPIConfiguration.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/DTOs/PostTweetRequestDTO.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/DTOs/PostTweetResponseDTO.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/Mappers/TweetMapper.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/Repositories/TwitterAPIRepository.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/TweetComposerError.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/TwitterAPIClient.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/TwitterCredentials.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/EmojiDetector.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/Entities/Tweet.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/Repositories/TwitterPosting.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/TweetLengthCalculator.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/TweetValidator.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/TwitterTextConfiguration.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/URLDetector.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/UseCases/PostTweetUseCase.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Manager/KeychainManager.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Manager/TwitterAuthManager.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/APIConfiguration.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/APIEndPoint.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/APIResponse.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/DefaultAPIConfiguration.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/HTTPMethod.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/NetworkClient.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/NetworkError.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/CharacterCounterView.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/TweetComposerColors.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/TweetComposerView.swift",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/TweetComposerViewModel.swift",
+      "-I",
+      "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/include/TweetComposerKit-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "tweetcomposerkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "TweetComposerKitPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "TweetComposerKitPackageTests",
+      "-package-name",
+      "tweetcomposerkit",
+      "-c",
+      "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/include/TweetComposerKitPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "tweetcomposerkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "TweetComposerKitTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "TweetComposerKitTests",
+      "-package-name",
+      "tweetcomposerkit",
+      "-c",
+      "/Users/khalidgad/Downloads/TweetComposerKit/Tests/TweetComposerKitTests/TweetComposerKitTests.swift",
+      "-I",
+      "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "tweetcomposerkit",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "TweetComposerKit" : [
+
+    ],
+    "TweetComposerKitPackageTests" : [
+      "TweetComposerKitTests",
+      "TweetComposerKit"
+    ],
+    "TweetComposerKitTests" : [
+      "TweetComposerKit"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/API/TwitterAPI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/API/TwitterAPIConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/DTOs/PostTweetRequestDTO.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/DTOs/PostTweetResponseDTO.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/Mappers/TweetMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/Repositories/TwitterAPIRepository.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/TweetComposerError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/TwitterAPIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Data/TwitterCredentials.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/EmojiDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/Entities/Tweet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/Repositories/TwitterPosting.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/TweetLengthCalculator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/TweetValidator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/TwitterTextConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/URLDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Domain/UseCases/PostTweetUseCase.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Manager/KeychainManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Manager/TwitterAuthManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/APIConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/APIEndPoint.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/APIResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/DefaultAPIConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/HTTPMethod.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/NetworkClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/NetworkLayer/NetworkError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/CharacterCounterView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/TweetComposerColors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/TweetComposerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Sources/TweetComposerKit/Presentation/TweetComposerViewModel.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/sources"
+    },
+    "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/sources"
+    },
+    "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/APIConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/APIEndPoint.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/APIResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/CharacterCounterView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/DefaultAPIConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/EmojiDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/HTTPMethod.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/KeychainManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/NetworkClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/NetworkError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/PostTweetRequestDTO.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/PostTweetResponseDTO.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/PostTweetUseCase.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/Tweet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetComposerColors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetComposerError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetComposerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetComposerViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetLengthCalculator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetMapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TweetValidator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAPI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAPIClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAPIConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAPIRepository.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterAuthManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterCredentials.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterPosting.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/TwitterTextConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKit.build/URLDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitTests.build/TweetComposerKitTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/khalidgad/Downloads/TweetComposerKit/Tests/TweetComposerKitTests/TweetComposerKitTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/TweetComposerKitTests.build/sources"
+    },
+    "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/khalidgad/Downloads/TweetComposerKit/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

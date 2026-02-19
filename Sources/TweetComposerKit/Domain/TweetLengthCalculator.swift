@@ -20,7 +20,6 @@ public protocol TweetLengthCalculating: Sendable {
 public final class TweetLengthCalculator: TweetLengthCalculating, Sendable {
     private let urlDetector: URLDetector
     private let emojiDetector: EmojiDetector
-
     public init() {
         self.urlDetector = URLDetector()
         self.emojiDetector = EmojiDetector()
