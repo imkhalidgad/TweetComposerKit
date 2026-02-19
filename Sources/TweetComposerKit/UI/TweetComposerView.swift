@@ -91,7 +91,13 @@ public struct TweetComposerView: View {
 
     @ViewBuilder
     private var twitterLogo: some View {
-        if #available(iOS 17.0, macOS 14.0, visionOS 1.0, *) {
+        #if canImport(UIKit)
+        if let uiImage = UIImage(named: "Twitter logo") {
+            Image(uiImage: uiImage)
+                .resizable()
+                .scaledToFit()
+                .frame(height: 55)
+        } else if #available(iOS 17.0, visionOS 1.0, *) {
             Image(systemName: "bird.fill")
                 .resizable()
                 .scaledToFit()
@@ -104,6 +110,20 @@ public struct TweetComposerView: View {
                 .frame(height: 55)
                 .foregroundStyle(TweetComposerColors.twitterBlue)
         }
+        #elseif canImport(AppKit)
+        if let nsImage = NSImage(named: "Twitter logo") {
+            Image(nsImage: nsImage)
+                .resizable()
+                .scaledToFit()
+                .frame(height: 55)
+        } else {
+            Image(systemName: "bird.fill")
+                .resizable()
+                .scaledToFit()
+                .frame(height: 55)
+                .foregroundStyle(TweetComposerColors.twitterBlue)
+        }
+        #endif
     }
 
     private var editorSection: some View {
