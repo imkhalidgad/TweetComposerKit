@@ -47,8 +47,8 @@ public struct CharacterCounterView: View {
     private func statCard(title: String, value: String, valueColor: Color) -> some View {
         VStack(spacing: 0) {
             Text(title)
-                .font(.body)
-                .fontWeight(.medium)
+                .font(.footnote)
+                .fontWeight(.regular)
                 .foregroundStyle(.primary)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 8)
