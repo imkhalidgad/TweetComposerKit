@@ -45,24 +45,28 @@ public struct CharacterCounterView: View {
     // MARK: - Private
 
     private func statCard(title: String, value: String, valueColor: Color) -> some View {
-        VStack(spacing: 12) {
+        VStack(spacing: 0) {
             Text(title)
-                .font(.caption)
+                .font(.subheadline)
                 .fontWeight(.semibold)
-                .foregroundStyle(.white)
-                .padding(.horizontal, 16)
-                .padding(.vertical, 7)
-                .background(Capsule().fill(TweetComposerColors.postBlue))
+                .foregroundStyle(.primary)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 12)
+                .background(TweetComposerColors.babyBlue)
+
+            Divider()
 
             Text(value)
                 .font(.system(size: 32, weight: .bold, design: .rounded))
                 .foregroundStyle(valueColor)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 24)
         }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 20)
-        .background(
+        .background(.white)
+        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .overlay(
             RoundedRectangle(cornerRadius: 12)
-                .fill(TweetComposerColors.babyBlue)
+                .stroke(TweetComposerColors.babyBlue, lineWidth: 1.5)
         )
     }
 }
