@@ -5,6 +5,8 @@ import SwiftUI
 /// - **Characters Typed**: weighted count out of the maximum (e.g. "42/280")
 /// - **Characters Remaining**: countdown that turns orange then red near the limit
 public struct CharacterCounterView: View {
+    @Environment(\.colorScheme) private var colorScheme
+
     private let typed: Int
     private let remaining: Int
     private let maxLength: Int
@@ -21,7 +23,7 @@ public struct CharacterCounterView: View {
 
     private var remainingColor: Color {
         switch remaining {
-        case 21...: .primary
+        case 21...: colorScheme == .dark ? .white : .black
         case 0...20: .orange
         default: .red
         }
@@ -32,7 +34,7 @@ public struct CharacterCounterView: View {
             statCard(
                 title: "Characters Typed",
                 value: "\(typed)/\(maxLength)",
-                valueColor: .primary
+                valueColor: colorScheme == .dark ? .white : .black
             )
             statCard(
                 title: "Characters Remaining",
@@ -49,11 +51,10 @@ public struct CharacterCounterView: View {
             Text(title)
                 .font(.footnote)
                 .fontWeight(.regular)
-                .foregroundStyle(.primary)
+                .foregroundStyle(.black)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 8)
                 .background(TweetComposerColors.babyBlue)
-                .foregroundStyle(.primary)
 
             Divider()
 
@@ -63,11 +64,15 @@ public struct CharacterCounterView: View {
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 24)
         }
-        .background(.primary)
+        .background(cardBackgroundColor)
         .clipShape(RoundedRectangle(cornerRadius: 12))
         .overlay(
             RoundedRectangle(cornerRadius: 12)
-                .stroke(TweetComposerColors.babyBlue, lineWidth: 1.5)
+                .stroke(TweetComposerColors.babyBlue, lineWidth: 2)
         )
+    }
+
+    private var cardBackgroundColor: Color {
+        colorScheme == .dark ? .black : .white
     }
 }
